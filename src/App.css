@@ -17,5 +17,35 @@
 }
 
 #room-list h1 {
-  font-size: 36px;
+  font-size: 42px;
+}
+
+#room-list h4 {
+  font-size: 24px;
+}
+
+#newRoomInput {
+  border: none;
+  font-size: 24px;
+  width: 210px;
+  text-align: center;
+  display: inline-block;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+#newRoomInput:focus {
+  outline: none;
+  box-shadow: 0 0 2px rgb(100,100,255);
+}
+
+#newRoomSubmit {
+  background: rgb(80,80,114);
+  border: none;
+  font-size: 24px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  color: white;
+  padding-left: 7px;
+  padding-right: 9px;
 }
