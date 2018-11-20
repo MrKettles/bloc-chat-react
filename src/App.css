@@ -115,3 +115,37 @@
   color: rgb(100,100,100);
   width: 100px;
 }
+
+/*
+
+User Component
+
+*/
+
+#userSection { 
+  background: rgb(70,70,70);
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: left;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#userSection > * {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  text-align: left;
+  line-height: 1em;
+}
+
+#userSection i {
+  color: rgb(150,150,150);
+}
+
+#userSection i:hover {
+  color: rgb(200,200,200);
+}
